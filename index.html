@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        let user;
+        user=parseInt(prompt("Enter your age"));
+       if(user >= 18){
+            if(confirm("Do you want to access a restricted content website?")){
+                alert("Welcome to the restricted content website.");
+            }
+            else{
+                alert("Access denied");
+            }
+        }
+        else{
+            alert("This website is restricted for user below 18!");
+        }
+    </script>
+     
+</body>
+</html>
